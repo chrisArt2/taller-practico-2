@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="./js.js"></script>
+    <title>Promoción de Pollo</title>
+</head>
+<body class="lead titlelead">
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<header>
+    <h1 class="lead titulo">Bienvenidos a Pollos Rostizados</h1>
+</header>
+<div class="container text-center">
+    <div class="row">
+      <div class="col order-last">
+        <p class="fontsme">Combo 1 de Pollo $7.25
+        </p> 
+        <img src="../assets/img/combo-3.jpg" class="img-fluid" alt="...">
+        <input class="form-check-input" type="radio" name="checkbox" id="checkbox1" value="7.25">
+        <label for="checkbox1">Combo 1</label>
+      </div>
+      <div class="col">
+        <p class="fontsme">Combo de pollo 2 $5.75</p>
+        <img src="../assets/img/combo-2.png" class="img-fluid" alt="...">
+        <input class="form-check-input" type="radio" name="checkbox" id="checkbox2" value="5.75">
+        <label for="checkbox2">Combo 2</label>
+      </div>
+      <div class="col order-first">
+        <p class="fontsme">Combo de pollo 3  $3.50</p>
+        <img src="../assets/img/combo-1.jpg" class="img-fluid combo-1" alt="...">
+        <input class="form-check-input" type="radio" name="checkbox" id="checkbox2">
+        <label for="checkbox3">Combo 3</label>
+      </div>
+      <input type="hidden" nmae="tops_tot" value="0.00">
+    </div>
+    <div>
+        <label>
+            Total: $<input type="text" name="total" class="num" value="0.00"
+            readonly="readonly" />
+        </label>
+            
+      </div>
+
+      <input type="submit">
+</body>
+</html>
